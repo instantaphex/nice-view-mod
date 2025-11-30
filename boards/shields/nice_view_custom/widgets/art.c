@@ -228,7 +228,7 @@ const lv_img_dsc_t mountain = {
     .data = mountain_map,
 };
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_AKUMA-REAL-MONO uint8_t akuma-real-mono_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_AKUMA uint8_t akuma[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
@@ -379,12 +379,12 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_AKUMA-REA
   0x00, 0x00, 0x07, 0xff, 0xf0, 0x00, 0x00, 0x00, 0x00, 
 };
 
-const lv_img_dsc_t akuma-real-mono = {
+const lv_img_dsc_t akuma = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 68,
   .header.h = 140,
   .data_size = 1268,
-  .data = akuma-real-mono_map,
+  .data = akuma,
 };
