@@ -232,7 +232,7 @@ const lv_img_dsc_t mountain = {
     .data = mountain_map,
 };
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_AKUMA uint8_t akuma[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_AKUMA uint8_t akuma_data[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
@@ -390,5 +390,5 @@ const lv_img_dsc_t akuma = {
   .header.w = 68,
   .header.h = 140,
   .data_size = 1268,
-  .data = akuma,
+  .data = akuma_data,
 };
